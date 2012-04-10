@@ -9,7 +9,8 @@ namespace console1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Das ist ein Test");
+            Console.WriteLine("Das ist ein Test, haha");
+            Console.WriteLine("Na klar!");
             Console.ReadLine();
         }
     }
