@@ -11,6 +11,7 @@ namespace console1
         {
             Console.WriteLine("Das ist ein Test, haha");
             Console.WriteLine("Na klar!");
+            Console.WriteLine("Noch ein Test!");
             Console.ReadLine();
         }
     }
