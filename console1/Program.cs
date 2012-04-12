@@ -12,7 +12,7 @@ namespace console1
             Console.WriteLine("Das ist ein Test, haha");
             Console.WriteLine("Na klar!");
             Console.WriteLine("Noch ein Test!");
-            Console.WriteLine("Unbhkbhkd noch ein Test!");
+            Console.WriteLine("Unbhkb hkd noch ein Test!");
             int h = 5 + 1;
             Console.WriteLine(h);
             Console.ReadLine();
