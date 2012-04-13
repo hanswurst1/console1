@@ -21,6 +21,11 @@ namespace console1
             er.B = 10;
             Console.WriteLine(er.bere().ToString());
 
+            werner wer = new werner();
+            wer.A = 5;
+            wer.B = 10;
+            Console.WriteLine(wer.bere().ToString());
+
             Console.ReadLine();
         }
 
@@ -43,6 +48,28 @@ namespace console1
             public int bere()
             {
                 return this.A + this.B;
+            }
+        }
+
+        struct werner
+        {
+            private int a;
+            public int A
+            {
+                get { return a; }
+                set { a = value; }
+            }
+
+            private int b;
+            public int B
+            {
+                get { return b; }
+                set { b = value; }
+            }
+
+            public int bere()
+            {
+                return this.A * this.B;
             }
         }
     }
