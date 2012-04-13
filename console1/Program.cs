@@ -26,6 +26,8 @@ namespace console1
             wer.B = 10;
             Console.WriteLine(wer.bere().ToString());
 
+            Console.WriteLine(wer.bere().ToString());
+
             Console.ReadLine();
         }
 
